@@ -6,6 +6,7 @@ if(jumpAmt<=0){
 	if(hitPlat != noone) {
 		y = hitPlat.y - hitPlat.sprite_height/2 - sprite_height/2;
 		grounded = true;
+		sprite_index = spr_player_idle;
 	} else {
 		grounded = false;
 	}
@@ -15,12 +16,13 @@ if(jumpAmt<=0){
 #region Movement
 if(keyboard_check(ord("A"))) {
 	x -= mspd;
+	sprite_index = spr_player_walk;
 	image_xscale = -1;
 } else if(keyboard_check(ord("D"))) {
+	sprite_index = spr_player_walk;
 	image_xscale = 1;
 	x += mspd;
 }
-
 #endregion
 
 #region Jumping
@@ -46,5 +48,11 @@ if grounded {
 		jumpAmt += global.gravAmt;	
 	}
 	jumpTimer += 1/room_speed;
+	
+	if (jumpAmt > 0) {
+		sprite_index = spr_player_jump;
+	} else {
+		sprite_index = spr_player_fall;
+	}
 }
 #endregion
