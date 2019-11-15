@@ -56,3 +56,9 @@ if grounded {
 	}
 }
 #endregion
+
+#region Time Travel
+if(keyboard_check_pressed(vk_space)) {
+	global.isPresent = !global.isPresent;
+}
+#endregion
