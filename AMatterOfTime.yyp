@@ -170,7 +170,7 @@
             "Key": "9e753441-c33b-4be3-ba68-c43e413c7f32",
             "Value": {
                 "id": "0bd5e0df-45b4-4266-a00a-929e92530166",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\Level1\\Level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -308,6 +308,14 @@
                 "id": "4982e9ef-98d8-4a3d-ba8b-1e37fe223c85",
                 "resourcePath": "sprites\\spr_sapling\\spr_sapling.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0e75da4-7ecb-46d6-9e47-76c0589404f6",
+            "Value": {
+                "id": "9d986fc0-8139-4e5e-8cc9-7c01d1f3e409",
+                "resourcePath": "objects\\obj_gui\\obj_gui.yy",
+                "resourceType": "GMObject"
             }
         },
         {
