@@ -13,6 +13,7 @@ if(jumpAmt<=0){
 }
 #endregion
 
+if(global.sentenceArray == undefined) {
 #region Movement
 if(keyboard_check(ord("A"))) {
 	x -= mspd;
@@ -60,5 +61,19 @@ if grounded {
 #region Time Travel
 if(keyboard_check_pressed(vk_space)) {
 	global.isPresent = !global.isPresent;
+}
+#endregion
+}
+
+#region Advance Dialog
+if(global.sentenceArray != undefined) {
+	if(keyboard_check_pressed(vk_space)) {
+		if(global.dialogBoxIndex == ds_list_size(global.sentenceArray) - 1) {
+			ds_list_destroy(global.sentenceArray);
+			global.sentenceArray = undefined;
+		} else {
+			global.dialogBoxIndex += 1;
+		}
+	}
 }
 #endregion

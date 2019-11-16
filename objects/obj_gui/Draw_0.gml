@@ -16,5 +16,11 @@ if(room == Level1){
 	var timeText = string(date_get_month(currentTime)) + "/" + string(date_get_day(currentTime)) + "/" + string(date_get_year(currentTime)) + " " + string(date_get_hour(currentTime)) + ":" + string(date_get_minute(currentTime)) + ":" + string(date_get_second(currentTime));
 	draw_text_transformed(room_width/8, room_height/8, timeText, 1.5, 1.5, 0);
 	#region Dialog Box
+	if(global.sentenceArray != undefined){
+		draw_set_color(c_black);
+		draw_rectangle(0, room_height, room_width, room_height - 100, false);
+		draw_set_color(c_white);
+		draw_text_transformed(room_width/8, room_height - 50,ds_list_find_value(global.sentenceArray, global.dialogBoxIndex),1,1, 0);
+	}
 	#endregion
 }
