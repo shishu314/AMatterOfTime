@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "57447d87-354f-47e4-9831-6458b60c8a91",
+            "Value": {
+                "id": "f4971f2e-def9-48c4-b5be-c8f2a9ed1ec1",
+                "resourcePath": "scripts\\InitializeDialogBox\\InitializeDialogBox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5eff4e52-cd43-4319-98ac-4647f9b79ddc",
             "Value": {
                 "id": "e381f481-b244-4b38-8cd7-cda53f68ae7e",
@@ -352,7 +360,7 @@
         }
     ],
     "script_order": [
-        
+        "57447d87-354f-47e4-9831-6458b60c8a91"
     ],
     "tutorial": ""
 }

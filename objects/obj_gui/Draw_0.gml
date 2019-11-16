@@ -15,4 +15,6 @@ if(room == Level1){
 	}
 	var timeText = string(date_get_month(currentTime)) + "/" + string(date_get_day(currentTime)) + "/" + string(date_get_year(currentTime)) + " " + string(date_get_hour(currentTime)) + ":" + string(date_get_minute(currentTime)) + ":" + string(date_get_second(currentTime));
 	draw_text_transformed(room_width/8, room_height/8, timeText, 1.5, 1.5, 0);
+	#region Dialog Box
+	#endregion
 }
