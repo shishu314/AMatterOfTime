@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "80feecf5-7eb2-49a1-a41d-01b49824a0c9",
+            "Value": {
+                "id": "6cbaa829-c4ed-4971-887e-e3fabfc0e5ee",
+                "resourcePath": "objects\\obj_tree\\obj_tree.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "830db778-2b36-4bd9-a517-319dfe4a1bec",
             "Value": {
                 "id": "b1fe5234-cf08-4c3d-97f4-bd2cc4692628",
@@ -268,6 +276,14 @@
                 "id": "cd9f33ad-5ad5-473b-83a3-3be6bbb1e76a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf9b47ce-8b8a-4a0e-90b9-e9590a4d7257",
+            "Value": {
+                "id": "7eaa0986-3431-4214-8b79-01bdde6bef0a",
+                "resourcePath": "objects\\obj_collidable\\obj_collidable.yy",
+                "resourceType": "GMObject"
             }
         },
         {
