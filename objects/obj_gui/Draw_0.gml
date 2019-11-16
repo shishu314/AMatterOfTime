@@ -20,7 +20,11 @@ if(room == Level1){
 		draw_set_color(c_black);
 		draw_rectangle(0, room_height, room_width, room_height - 100, false);
 		draw_set_color(c_white);
-		draw_text_transformed(room_width/8, room_height - 50,ds_list_find_value(global.sentenceArray, global.dialogBoxIndex),1,1, 0);
+		draw_text_transformed(room_width/8, room_height - 100,ds_list_find_value(global.sentenceArray, global.dialogBoxIndex),1,1, 0);
+		// Flash every 0.25 seconds
+		if((current_time/500) & 1) {
+			draw_text_transformed(room_width/2, room_height - 50, "Press Space to Continue", 1, 1, 0);
+		}
 	}
 	#endregion
 }
