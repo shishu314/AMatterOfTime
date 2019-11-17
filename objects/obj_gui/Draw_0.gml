@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+var cam_x = camera_get_view_x(view_camera[0]);
+var cam_y = camera_get_view_y(view_camera[0]);
+var offset = 20;
+
 if(room == Level1){
 	draw_set_color(c_black);
 	var currentTime = global.time;
@@ -14,7 +19,7 @@ if(room == Level1){
 		}
 	}
 	var timeText = string(date_get_month(currentTime)) + "/" + string(date_get_day(currentTime)) + "/" + string(date_get_year(currentTime)) + " " + string(date_get_hour(currentTime)) + ":" + string(date_get_minute(currentTime)) + ":" + string(date_get_second(currentTime));
-	draw_text_transformed(room_width/8, room_height/8, timeText, 1.5, 1.5, 0);
+	draw_text_transformed(cam_x+offset, cam_y+offset, timeText, 1.5, 1.5, 0);
 	#region Dialog Box
 	if(global.sentenceArray != undefined){
 		draw_set_color(c_black);
