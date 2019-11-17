@@ -16,8 +16,15 @@ while(_text != ""){
 global.sentenceArray = ds_list_create();
 var sentence = "";
 for(var i = 0; i < ds_list_size(wordArray); ++i) {
-	if(string_length(sentence+ds_list_find_value(wordArray, i)+ " ") < global.maxSentenceLength){
-		sentence += ds_list_find_value(wordArray, i)+ " ";
+	var currentWord = ds_list_find_value(wordArray, i);
+	if(string_length(sentence+ currentWord) < global.maxSentenceLength){
+		if(string_char_at(currentWord, string_length(currentWord)) == "#") {
+			sentence += string_copy(currentWord, 0, string_length(currentWord) - 1);
+			ds_list_add(global.sentenceArray, sentence);
+			sentence = "";
+		} else {
+			sentence += currentWord + " ";
+		}
 	} else {
 		ds_list_add(global.sentenceArray, sentence);
 		sentence = ds_list_find_value(wordArray, i)+ " ";
