@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "a9c8d381-1d91-4260-a90e-02e961a81df8",
+            "Value": {
+                "id": "d504cc99-37aa-48c9-815b-c7a7acae60e1",
+                "resourcePath": "objects\\obj_interactibles\\obj_interactibles.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa860b56-b231-4d00-8269-607ae103f81f",
             "Value": {
                 "id": "9d8a03c0-7e0e-460f-9ed6-625c54bb3500",
