@@ -27,7 +27,12 @@ for(var i = 0; i < ds_list_size(wordArray); ++i) {
 		}
 	} else {
 		ds_list_add(global.sentenceArray, sentence);
-		sentence = ds_list_find_value(wordArray, i)+ " ";
+		if(string_char_at(currentWord, string_length(currentWord)) == "#") {
+			ds_list_add(global.sentenceArray, string_copy(currentWord, 0, string_length(currentWord) - 1));
+			sentence = "";
+		} else {
+			sentence = currentWord+ " ";
+		}
 	}
 }
 ds_list_destroy(wordArray);
