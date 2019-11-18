@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "c1126478-7dc7-4454-9013-92ad540c48b5",
+            "Value": {
+                "id": "64e7e685-e5f2-4fcf-bec9-b05e14643365",
+                "resourcePath": "objects\\obj_diary\\obj_diary.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cbb0b4a3-9810-4d81-b371-2292c2278996",
             "Value": {
                 "id": "82e4a7c6-d12a-4a64-a8a9-b35b1ffdcdd5",
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "dfb8b567-0497-42c8-87cd-40eaf6759513",
+            "Value": {
+                "id": "4e5d8504-abc2-42f3-beaa-6f16a0cecb8a",
+                "resourcePath": "objects\\obj_table\\obj_table.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e007fe35-f825-48b4-9198-837ea0c23c9e",
             "Value": {
                 "id": "4982e9ef-98d8-4a3d-ba8b-1e37fe223c85",
@@ -410,7 +426,7 @@
             "Key": "ee4925e4-35e0-4fe4-ae18-4678fa88b90a",
             "Value": {
                 "id": "8d210294-8913-48d0-9744-fec38d8863e0",
-                "resourcePath": "objects\\obj_RoomInitializer\\obj_RoomInitializer.yy",
+                "resourcePath": "objects\\obj_RoomState\\obj_RoomState.yy",
                 "resourceType": "GMObject"
             }
         },

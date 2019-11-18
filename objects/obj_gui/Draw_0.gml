@@ -6,6 +6,7 @@ draw_set_color(c_black);
 var currentTime = global.time;
 if(!global.isPresent){
 	switch(room) {
+		case Room:
 		case Level1:
 			// 10 years (accounting for leap years)
 			currentTime += 365*10+3;

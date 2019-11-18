@@ -2,7 +2,7 @@
     "id": "ee4925e4-35e0-4fe4-ae18-4678fa88b90a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_RoomInitializer",
+    "name": "obj_RoomState",
     "eventList": [
         {
             "id": "311baed0-edc7-43b6-811a-adf6bfb3c58d",

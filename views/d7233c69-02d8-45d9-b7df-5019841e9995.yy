@@ -7,7 +7,7 @@
         "ee4925e4-35e0-4fe4-ae18-4678fa88b90a"
     ],
     "filterType": "GMObject",
-    "folderName": "RoomInitializers",
+    "folderName": "RoomStates",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
