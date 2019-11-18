@@ -6,7 +6,9 @@
     "children": [
         "e007fe35-f825-48b4-9198-837ea0c23c9e",
         "d232a4bb-bfa7-4bae-b847-82235cad0a92",
-        "6adbc26f-3b6b-49ac-a7e1-d37503563806"
+        "6adbc26f-3b6b-49ac-a7e1-d37503563806",
+        "31877878-8b3c-4583-a508-8ea2a699da64",
+        "cbb0b4a3-9810-4d81-b371-2292c2278996"
     ],
     "filterType": "GMSprite",
     "folderName": "Interactive Objects",
