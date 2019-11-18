@@ -2,7 +2,7 @@
     "id": "cbb0b4a3-9810-4d81-b371-2292c2278996",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sor_diary",
+    "name": "spr_diary",
     "For3D": false,
     "HTile": false,
     "VTile": false,

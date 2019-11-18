@@ -338,7 +338,7 @@
             "Key": "cbb0b4a3-9810-4d81-b371-2292c2278996",
             "Value": {
                 "id": "82e4a7c6-d12a-4a64-a8a9-b35b1ffdcdd5",
-                "resourcePath": "sprites\\sor_diary\\sor_diary.yy",
+                "resourcePath": "sprites\\spr_diary\\spr_diary.yy",
                 "resourceType": "GMSprite"
             }
         },
