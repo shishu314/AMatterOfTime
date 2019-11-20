@@ -9,7 +9,7 @@ if(!global.isPresent){
 		case Room:
 		case Level1:
 			// 20 years (accounting for leap years)
-			currentTime += 365*20+5;
+			currentTime -= 365*20+5;
 			break;
 		default:
 			break;
