@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 #region Time
-draw_set_color(c_black);
+draw_set_color(c_white);
 var currentTime = global.time;
 if(!global.isPresent){
 	switch(room) {
