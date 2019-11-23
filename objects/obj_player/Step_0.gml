@@ -23,7 +23,9 @@ if(jumpAmt<=0){
 if(global.sentenceArray == undefined) {
 #region Movement
 if(keyboard_check(ord("A"))) {
-	x -= mspd;
+	if(x > abs(sprite_width/2)){
+		x -= mspd;
+	}
 	sprite_index = spr_player_walk;
 	image_xscale = -1;
 } else if(keyboard_check(ord("D"))) {
