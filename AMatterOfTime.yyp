@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "92098319-7e57-4761-842a-80a9e5ad6a4b",
+            "Value": {
+                "id": "4f710d53-a73e-4420-b178-63ffe5126d41",
+                "resourcePath": "scripts\\WordsToSentences\\WordsToSentences.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "98222352-10d5-41bc-92ed-11c7cd2309d4",
             "Value": {
                 "id": "033e97a3-8498-4a8c-ae2f-c5c00f14a4a7",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "d5f8c7eb-d8bc-4db0-a6ee-d2563be79b44",
+            "Value": {
+                "id": "680b19f4-5fd0-439f-b953-2655e41c5e8f",
+                "resourcePath": "scripts\\TextToWords\\TextToWords.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d7233c69-02d8-45d9-b7df-5019841e9995",
             "Value": {
                 "id": "bc5ee59d-5dfc-4767-b25c-13f643c70dd9",
@@ -504,7 +520,9 @@
         }
     ],
     "script_order": [
-        "57447d87-354f-47e4-9831-6458b60c8a91"
+        "57447d87-354f-47e4-9831-6458b60c8a91",
+        "d5f8c7eb-d8bc-4db0-a6ee-d2563be79b44",
+        "92098319-7e57-4761-842a-80a9e5ad6a4b"
     ],
     "tutorial": ""
 }
