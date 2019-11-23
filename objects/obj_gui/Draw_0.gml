@@ -25,12 +25,12 @@ if(room != GameOver) {
 	if(global.sentenceArray != undefined){
 		draw_set_halign(fa_left);
 		draw_set_color(c_black);
-		draw_rectangle(0, room_height, room_width, room_height - 100, false);
+		draw_rectangle(0, room_height, room_width, 7*room_height/8, false);
 		draw_set_color(c_white);
-		draw_text_transformed(room_width/10, room_height - 75,ds_list_find_value(global.sentenceArray, global.dialogBoxIndex),1.5,1.5, 0);
+		draw_text_transformed(room_width/10, 29*room_height/32,ds_list_find_value(global.sentenceArray, global.dialogBoxIndex),1.5,1.5, 0);
 		// Flash every 0.25 seconds
 		if((current_time/500) & 1) {
-			draw_text_transformed(room_width/2, room_height - 25, "Press Space to Continue", 1, 1, 0);
+			draw_text_transformed(room_width/2, 31*room_height/32, "Press Space to Continue", 1, 1, 0);
 		}
 	}
 	#endregion

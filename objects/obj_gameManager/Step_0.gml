@@ -6,3 +6,9 @@ if(global.sentenceArray == undefined){
 	global.time += 0.00001/room_speed;
 }
 #endregion
+
+if(room == GameOver) {
+	if(keyboard_check_pressed(ord("R"))) {
+		room_goto(Room);
+	}
+}
