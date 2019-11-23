@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "c89ff6d3-8234-4790-81d0-a374881c8696",
+            "Value": {
+                "id": "3e91beca-d35b-4f18-9c5d-7bd3445711b6",
+                "resourcePath": "scripts\\InitializeEndGameText\\InitializeEndGameText.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cbb0b4a3-9810-4d81-b371-2292c2278996",
             "Value": {
                 "id": "82e4a7c6-d12a-4a64-a8a9-b35b1ffdcdd5",
@@ -468,6 +476,14 @@
                 "id": "680b19f4-5fd0-439f-b953-2655e41c5e8f",
                 "resourcePath": "scripts\\TextToWords\\TextToWords.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d6c3ebb6-ba99-4f7d-9c62-5cd91151b523",
+            "Value": {
+                "id": "7c8de63e-248b-44b4-81b9-06441b96814e",
+                "resourcePath": "rooms\\GameOver\\GameOver.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -554,7 +570,8 @@
     "script_order": [
         "57447d87-354f-47e4-9831-6458b60c8a91",
         "d5f8c7eb-d8bc-4db0-a6ee-d2563be79b44",
-        "92098319-7e57-4761-842a-80a9e5ad6a4b"
+        "92098319-7e57-4761-842a-80a9e5ad6a4b",
+        "c89ff6d3-8234-4790-81d0-a374881c8696"
     ],
     "tutorial": ""
 }
