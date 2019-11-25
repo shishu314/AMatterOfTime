@@ -29,7 +29,7 @@ if(room != GameOver && room != TitleScreen) {
 	if(global.sentenceArray != undefined){
 		draw_set_halign(fa_left);
 		draw_set_color(c_black);
-		draw_rectangle(0, cam_height, cam_width, 7*cam_height/8, false);
+		draw_rectangle(cam_x, cam_height, cam_x + cam_width, 7*cam_height/8, false);
 		draw_set_color(c_white);
 		draw_text_transformed(cam_x+cam_width/10, 29*(cam_y+cam_height)/32,ds_list_find_value(global.sentenceArray, global.dialogBoxIndex),1.5,1.5, 0);
 		// Flash every 0.25 seconds
