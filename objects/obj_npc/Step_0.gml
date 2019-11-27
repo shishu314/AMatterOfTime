@@ -10,3 +10,8 @@ if(instance_place(x, y, obj_player) != noone) {
 		}
 	}
 }
+
+if(introductionDialogue != undefined && !introduced && abs(obj_player.x - x) == 100) {
+	introduced = true;
+	InitializeDialogBox(introductionDialogue);
+}
