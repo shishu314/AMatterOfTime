@@ -3,4 +3,4 @@
 global.time = date_create_datetime(2050, 12, 10, 10, 10, 10);
 diaryRead = false;
 obj_gui.depth = -1000;
-InitializeDialogBox("...# ..# .# Rubs eyes*# It's finally the day ...# I need to stop that tragedy from occuring before it's too late.");
+InitializeDialogBox("...# ..# .# Yawn*# I should check twitter...# (15 minutes of twitter later)# Aight time to watch some youtube videos# (30 minutes of youtube later)# ....# ...# ..# .# God fucking damn it I don't want to get up");

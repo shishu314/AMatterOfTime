@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(shouldDraw){
+if(shouldDraw && global.sentenceArray == undefined){
 	var player = instance_place(x, y, obj_player);
 	if(player != noone){
 		var camX = camera_get_view_x(view_camera[0]);
