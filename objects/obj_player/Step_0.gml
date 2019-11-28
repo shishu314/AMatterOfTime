@@ -69,8 +69,19 @@ if grounded {
 
 #region Time Travel
 if(keyboard_check_pressed(vk_space)) {
-	global.isPresent = !global.isPresent;
+	if(global.isPresent){
+		if(timeTravelCDCount == 0){
+			global.isPresent = !global.isPresent;
+			if(room != Level1) {
+				alarm[0] = timeTravelCount;
+			}
+		}
+	} else {
+		global.isPresent = true;
+		timeTravelCDCount = timeTravelCD;
+	}
 }
+timeTravelCDCount = clamp(timeTravelCDCount - 1, 0, timeTravelCD); 
 #endregion
 }
 

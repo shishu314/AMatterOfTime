@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1a08603b-1337-47f3-bace-f5fb3cb73a31",
+            "Value": {
+                "id": "ee71bd88-606f-4129-94d2-49adafde4c79",
+                "resourcePath": "scripts\\DrawPie\\DrawPie.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1ae3181d-0b01-4dfc-be80-7a6365ec95a0",
             "Value": {
                 "id": "97221c26-fb0a-48e1-a0d3-db57ae49c37d",
@@ -615,6 +623,14 @@
             }
         },
         {
+            "Key": "f72abf03-87e9-490e-86a6-27c311f8587c",
+            "Value": {
+                "id": "2e79c490-1e7f-456e-bc16-703671fce173",
+                "resourcePath": "rooms\\Level2\\Level2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "fd68b283-7344-43c0-9580-d48115d6b251",
             "Value": {
                 "id": "5927ac64-e0c6-4242-abd5-8747533631b3",
@@ -635,7 +651,8 @@
         "57447d87-354f-47e4-9831-6458b60c8a91",
         "d5f8c7eb-d8bc-4db0-a6ee-d2563be79b44",
         "92098319-7e57-4761-842a-80a9e5ad6a4b",
-        "c89ff6d3-8234-4790-81d0-a374881c8696"
+        "c89ff6d3-8234-4790-81d0-a374881c8696",
+        "1a08603b-1337-47f3-bace-f5fb3cb73a31"
     ],
     "tutorial": ""
 }
