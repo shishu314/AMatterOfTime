@@ -73,7 +73,8 @@ if(keyboard_check_pressed(vk_space)) {
 		if(timeTravelCDCount == 0){
 			global.isPresent = !global.isPresent;
 			if(room != Level1 && room != Room) {
-				alarm[0] = timeTravelCount;
+				alarm[0] = timeTravelMax;
+				timeTravelCount = timeTravelMax;
 			}
 		}
 	} else {
@@ -84,6 +85,7 @@ if(keyboard_check_pressed(vk_space)) {
 	}
 }
 timeTravelCDCount = clamp(timeTravelCDCount - 1, 0, timeTravelCD); 
+timeTravelCount = clamp(timeTravelCount - 1, 0, timeTravelMax);
 #endregion
 }
 
