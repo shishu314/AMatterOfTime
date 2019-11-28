@@ -72,13 +72,15 @@ if(keyboard_check_pressed(vk_space)) {
 	if(global.isPresent){
 		if(timeTravelCDCount == 0){
 			global.isPresent = !global.isPresent;
-			if(room != Level1) {
+			if(room != Level1 && room != Room) {
 				alarm[0] = timeTravelCount;
 			}
 		}
 	} else {
 		global.isPresent = true;
-		timeTravelCDCount = timeTravelCD;
+		if(room != Level1 && room != Room) {
+			timeTravelCDCount = timeTravelCD;
+		}
 	}
 }
 timeTravelCDCount = clamp(timeTravelCDCount - 1, 0, timeTravelCD); 
