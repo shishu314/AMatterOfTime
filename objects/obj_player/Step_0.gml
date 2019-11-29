@@ -31,7 +31,9 @@ if(keyboard_check(ord("A"))) {
 } else if(keyboard_check(ord("D"))) {
 	sprite_index = spr_player_walk;
 	image_xscale = 1;
-	x += mspd;
+	if(x < room_width - abs(sprite_width/2)){
+		x += mspd;
+	}
 }
 #endregion
 
@@ -72,14 +74,14 @@ if(keyboard_check_pressed(vk_space)) {
 	if(global.isPresent){
 		if(timeTravelCDCount == 0){
 			global.isPresent = !global.isPresent;
-			if(room != Level1 && room != Room) {
+			if(room != Level1 && room != Room && room != ClothingStore) {
 				alarm[0] = timeTravelMax;
 				timeTravelCount = timeTravelMax;
 			}
 		}
 	} else {
 		global.isPresent = true;
-		if(room != Level1 && room != Room) {
+		if(room != Level1 && room != Room && room != ClothingStore) {
 			timeTravelCDCount = timeTravelCD;
 		}
 	}

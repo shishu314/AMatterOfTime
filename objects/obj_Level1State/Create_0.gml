@@ -4,4 +4,10 @@ global.isPresent = true;
 global.currentLevel = Level1;
 if(global.prevX == undefined && global.prevY == undefined){
 	InitializeDialogBox("This tree...# I remember it being a mere sapling like ... 20 years ago? I guess it has really grown since then.# I really holed myself up for too long...")
+} else {
+	obj_player.x = global.prevX;
+	obj_player.y = global.prevY;
+	global.prevX = undefined;
+	global.prevY = undefined;
+	obj_hobo.introduced = true;
 }

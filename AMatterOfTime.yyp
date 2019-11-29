@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "c65cac66-7c28-4284-a621-0bcad8c5fca5",
+            "Value": {
+                "id": "1835bf16-f8f3-474f-9941-690e24c532e6",
+                "resourcePath": "rooms\\ClothingStore\\ClothingStore.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c89ff6d3-8234-4790-81d0-a374881c8696",
             "Value": {
                 "id": "3e91beca-d35b-4f18-9c5d-7bd3445711b6",

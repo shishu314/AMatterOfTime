@@ -11,6 +11,24 @@ switch(room){
 			}
 		}
 		break;
+	case Level1:
+		shouldDraw = true;
+		if(instance_place(x, y, obj_player) != noone) {
+			if(keyboard_check_pressed(ord("E"))) {
+				global.prevX = x;
+				global.prevY = y;
+				room_goto(ClothingStore);
+			}
+		}
+		break;
+	case ClothingStore:
+		shouldDraw = true;
+		if(instance_place(x, y, obj_player) != noone) {
+			if(keyboard_check_pressed(ord("E"))) {
+				room_goto(Level1);
+			}
+		}
+		break;
 	default:
 		break;
 }
