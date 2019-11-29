@@ -6,3 +6,4 @@ global.currentLevel = undefined;
 global.prevX = undefined;
 global.prevY = undefined;
 window_set_size(1200,900);
+instance_create_depth(x, y, -1000, obj_gui);
