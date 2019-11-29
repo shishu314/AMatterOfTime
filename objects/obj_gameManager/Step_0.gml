@@ -17,6 +17,6 @@ if(room == TitleScreen) {
 
 if(room == GameOver) {
 	if(keyboard_check_pressed(ord("R"))) {
-		room_goto(Room);
+		room_goto(global.currentLevel);
 	}
 }
