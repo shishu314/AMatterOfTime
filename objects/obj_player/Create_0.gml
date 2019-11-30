@@ -14,8 +14,3 @@ timeTravelMax = 6 * room_speed;
 timeTravelCount = 0;
 timeTravelCD = 6 * room_speed;
 timeTravelCDCount = 0;
-
-
-#region items
-hasJacket = false;
-#endregion

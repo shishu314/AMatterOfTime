@@ -107,7 +107,7 @@ if(global.sentenceArray != undefined) {
 #region Fall
 if(y > room_height) {
 	if(room == ClothingStore){
-		hasJacket = false;
+		global.hasJacket = false;
 	}
 	InitializeEndGameText("You fell out of the world and died");
 	room_goto(GameOver);
