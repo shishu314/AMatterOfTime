@@ -2,11 +2,20 @@
 // You can write your code in this editor
 if(instance_place(x, y, obj_player) != noone) {
 	if(keyboard_check_pressed(ord("E")) && global.sentenceArray == undefined) {
-		if(!hasTalked) {
-			InitializeDialogBox(initialDialogue);
-			hasTalked = true;
+		if(global.isPresent){
+			if(!hasTalkedPresent && initialPresentDialogue != undefined) {
+				InitializeDialogBox(initialPresentDialogue);
+				hasTalkedPresent = true;
+			} else {
+				InitializeDialogBox(repeatPresentDialogue)
+			}
 		} else {
-			InitializeDialogBox(repeatDialogue)
+			if(!hasTalkedPast && initialPastDialogue != undefined) {
+				InitializeDialogBox(initialPastDialogue);
+				hasTalkedPast = true;
+			} else {
+				InitializeDialogBox(repeatPastDialogue)
+			}
 		}
 	}
 }

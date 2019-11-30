@@ -2,7 +2,10 @@
 // You can write your code in this editor
 shouldDraw = true;
 introduced = false;
-hasTalked = false;
-initialDialogue = undefined;
-repeatDialogue = undefined;
+hasTalkedPresent = false;
+hasTalkedPast = false;
+initialPresentDialogue = undefined;
+repeatPresentDialogue = undefined;
+initialPastDialogue = undefined;
+repeatPastDialogue = undefined;
 introductionDialogue = undefined;
