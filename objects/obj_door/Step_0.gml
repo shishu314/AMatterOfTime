@@ -13,7 +13,7 @@ switch(room){
 		}
 		break;
 	case Level1:
-		shouldDraw = true;
+		shouldDraw = !global.hasJacket;
 		if(instance_place(x, y, obj_player) != noone) {
 			if(keyboard_check_pressed(ord("E")) && !global.hasJacket) {
 				global.prevX = x;
