@@ -11,7 +11,8 @@
         "cbb0b4a3-9810-4d81-b371-2292c2278996",
         "9bbb9efc-e859-4a15-a176-b72049d09924",
         "3b1ef07e-8948-4c40-b642-f7969a4b204a",
-        "8489d21c-f80c-46d2-98c1-ed58b097b5b6"
+        "8489d21c-f80c-46d2-98c1-ed58b097b5b6",
+        "33c62387-58bf-4576-be27-c1d1dd537169"
     ],
     "filterType": "GMSprite",
     "folderName": "Interactive Objects",
