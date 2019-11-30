@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "720afe7d-81cb-4c42-b995-c80f6b2dcf4e",
+            "Value": {
+                "id": "52c54c65-6987-4614-b890-275fd23401f3",
+                "resourcePath": "sprites\\spr_ledge\\spr_ledge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "758ed950-a7c1-45da-8d25-f0e7186aeafd",
             "Value": {
                 "id": "fcc62d3a-093a-466a-89ff-1802d34e6a05",
