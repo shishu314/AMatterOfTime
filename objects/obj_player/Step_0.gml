@@ -74,14 +74,14 @@ if(keyboard_check_pressed(vk_space)) {
 	if(global.isPresent){
 		if(timeTravelCDCount == 0){
 			global.isPresent = !global.isPresent;
-			if(room != Level1 && room != Room && room != ClothingStore) {
+			if(room != Level1 && room != Room && room != ClothingStore && room != AlleyWay) {
 				alarm[0] = timeTravelMax;
 				timeTravelCount = timeTravelMax;
 			}
 		}
 	} else {
 		global.isPresent = true;
-		if(room != Level1 && room != Room && room != ClothingStore) {
+		if(room != Level1 && room != Room && room != ClothingStore && room != AlleyWay) {
 			timeTravelCDCount = timeTravelCD;
 		}
 	}

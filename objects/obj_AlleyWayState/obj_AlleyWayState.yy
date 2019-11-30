@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_AlleyWayState",
     "eventList": [
-        
+        {
+            "id": "35cafb54-bd79-40bd-a070-1715fc844f51",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "da9e4a25-5356-4f0c-83eb-1be6d744d385"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
