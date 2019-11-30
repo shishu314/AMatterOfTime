@@ -17,6 +17,8 @@ if(room == TitleScreen) {
 
 if(room == GameOver) {
 	if(keyboard_check_pressed(ord("R"))) {
+		ds_list_destroy(global.sentenceArray);
+		global.sentenceArray = undefined;
 		room_goto(global.currentLevel);
 	}
 }

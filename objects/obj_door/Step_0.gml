@@ -6,6 +6,7 @@ switch(room){
 		if(instance_place(x, y, obj_player) != noone) {
 			if(obj_RoomState.diaryRead) {
 				if(keyboard_check_pressed(ord("E"))) {
+					global.currentLevel = Level1;
 					room_goto_next();
 				}
 			}
@@ -17,6 +18,7 @@ switch(room){
 			if(keyboard_check_pressed(ord("E"))) {
 				global.prevX = x;
 				global.prevY = y;
+				global.currentLevel = ClothingStore;
 				room_goto(ClothingStore);
 			}
 		}

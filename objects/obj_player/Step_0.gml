@@ -103,3 +103,10 @@ if(global.sentenceArray != undefined) {
 	}
 }
 #endregion
+
+#region Fall
+if(y > room_height) {
+	InitializeEndGameText("You fell out of the world and died");
+	room_goto(GameOver);
+}
+#endregion
