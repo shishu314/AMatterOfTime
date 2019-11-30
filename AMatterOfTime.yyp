@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "bd530822-dde4-483f-a5fd-ad4f5e8d8b6f",
+            "Value": {
+                "id": "71c2a1c9-9670-44f6-a47f-8386e53fd0e4",
+                "resourcePath": "objects\\obj_ClothingStoreState\\obj_ClothingStoreState.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bedf01b2-c5e6-4e2f-9512-355cae8735a3",
             "Value": {
                 "id": "0c7086d2-4967-4c10-91a8-c22587766c06",
