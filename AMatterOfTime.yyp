@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "71f67307-ac14-4c55-86ca-8bb42fd58a5e",
+            "Value": {
+                "id": "dcf652d8-d3f3-44a6-a030-751926344079",
+                "resourcePath": "views\\71f67307-ac14-4c55-86ca-8bb42fd58a5e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "720afe7d-81cb-4c42-b995-c80f6b2dcf4e",
             "Value": {
                 "id": "52c54c65-6987-4614-b890-275fd23401f3",
@@ -708,6 +716,14 @@
                 "id": "8d210294-8913-48d0-9744-fec38d8863e0",
                 "resourcePath": "objects\\obj_RoomState\\obj_RoomState.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f223a7f7-9e64-4a94-9806-7479fc5c8cfd",
+            "Value": {
+                "id": "3c3c6361-ea70-42e0-882a-55453384d183",
+                "resourcePath": "sprites\\spr_hobo_with_jacket\\spr_hobo_with_jacket.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
