@@ -16,6 +16,14 @@ if(room != GameOver && room != TitleScreen) {
 				// 20 years (accounting for leap years)
 				currentTime -= 365*20+5;
 				break;
+			case AlleyWay:
+				// 20 years (accounting for leap years)
+				currentTime -= 365*20+5;
+				break;
+			case ClothingStore:
+				// 20 years (accounting for leap years)
+				currentTime -= 365*20+5;
+				break;
 			default:
 				break;
 		}
