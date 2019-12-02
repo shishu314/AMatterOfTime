@@ -10,11 +10,16 @@ if(global.hasApple && global.hasJacket && !useAlternate) {
 				room_goto(GameOver);
 			} else {
 				InitializeDialogBox("Is that jacket and food for me?# ...# Thank you stranger... Thank you so much!# T^T");
-				sprite_index = spr_hobo_with_jacket;
 				useAlternate = true;
 			}
 		}
 	}
 } else {
 	event_inherited();
+}
+
+if(useAlternate && global.isPresent) {
+	sprite_index = spr_hobo_with_jacket;
+} else {
+	sprite_index = spr_hobo;
 }
