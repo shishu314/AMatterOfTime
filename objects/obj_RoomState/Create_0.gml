@@ -3,4 +3,4 @@
 global.time = date_create_datetime(2050, 12, 10, 10, 10, 10);
 global.currentLevel = Room;
 diaryRead = false;
-InitializeDialogBox("...# ..# .# Yawn*# I should check twitter...# (15 minutes of twitter later)# Aight time to watch some youtube videos# (30 minutes of youtube later)# ....# ...# ..# .# God fucking damn it I don't want to get up");
+InitializeDialogBox("...# ..# .# Yawn*# It's too early... but I guess that what I get for accepting this job.# ... I still have a few more minutes.# (30 minutes of twitter later)# God damn it. I don't want to get up.");

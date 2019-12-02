@@ -9,7 +9,7 @@ if(global.hasApple && global.hasJacket && !useAlternate) {
 				InitializeEndGameText("You helped the hobo, but now you didn't change the past.");
 				room_goto(GameOver);
 			} else {
-				InitializeDialogBox("Is that jacket and food for me?# ...# Thank you stranger... Thank you so much# T^T");
+				InitializeDialogBox("Is that jacket and food for me?# ...# Thank you stranger... Thank you so much!# T^T");
 				useAlternate = true;
 			}
 		}

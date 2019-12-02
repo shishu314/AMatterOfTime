@@ -5,4 +5,4 @@ initialPresentDialogue = "I used to be a hard working salaryman 20 years ago, wi
 repeatPresentDialogue = "Hey fuck off, what are you looking at";
 repeatPastDialogue = "Hey kid can you spare some change?";
 alternatePastDialogue = "Thank you... thank you so much";
-alternatePresentDialogue = "You know, 20 years ago I was a hobo ...# Then someone came along and offered me food and clothing...# You look kinda like him";
+alternatePresentDialogue = "You know, 20 years ago I was homeless...# Then someone came along and offered me food and clothing...# You kinda look like him.";
