@@ -3,7 +3,7 @@
 global.isPresent = true;
 global.currentLevel = Level1;
 if(global.prevX == undefined && global.prevY == undefined){
-	InitializeDialogBox("This tree...# I remember it being a mere sapling like ... 20 years ago? I guess it has really grown since then.# I really holed myself up for too long...")
+	InitializeDialogBox("Man...# I could be looking at dank memes...# But here I am...")
 } else {
 	obj_player.x = global.prevX;
 	obj_player.y = global.prevY;
