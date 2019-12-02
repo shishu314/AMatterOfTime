@@ -26,7 +26,7 @@ switch(room){
 	case ClothingStore:
 		shouldDraw = true;
 		if(instance_place(x, y, obj_player) != noone) {
-			if(keyboard_check_pressed(ord("E"))) {
+			if(keyboard_check_pressed(ord("E")) && global.sentenceArray == undefined) {
 				room_goto(Level1);
 			}
 		}
