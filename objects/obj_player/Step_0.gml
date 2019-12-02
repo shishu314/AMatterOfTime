@@ -22,13 +22,13 @@ if(jumpAmt<=0){
 
 if(global.sentenceArray == undefined) {
 #region Movement
-if(keyboard_check(ord("A"))) {
+if(keyboard_check(ord("A")) || keyboard_check(vk_left)) {
 	if(x > abs(sprite_width/2)){
 		x -= mspd;
 	}
 	sprite_index = spr_player_walk;
 	image_xscale = -1;
-} else if(keyboard_check(ord("D"))) {
+} else if(keyboard_check(ord("D")) || keyboard_check(vk_right)) {
 	sprite_index = spr_player_walk;
 	image_xscale = 1;
 	if(x < room_width - abs(sprite_width/2)){
@@ -38,7 +38,7 @@ if(keyboard_check(ord("A"))) {
 #endregion
 
 #region Jumping
-if not keyboard_check(ord("W")) {
+if (!keyboard_check(ord("W")) && !keyboard_check(vk_up)) {
 	isJumping = false;
 	jumpTimer = jumpTime;
 }
@@ -46,7 +46,7 @@ if grounded {
 	jumpTimer = 0;
 	jumpAmt = 0	;									
 	
-	if keyboard_check_pressed(ord("W")){	
+	if (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)){	
 	    jumpAmt = jumpMax;
 		y -= jumpAmt;
 		isJumping=true;
