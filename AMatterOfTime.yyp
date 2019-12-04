@@ -367,6 +367,22 @@
             }
         },
         {
+            "Key": "7e947655-17ff-4820-b990-218a033eef88",
+            "Value": {
+                "id": "d68ab6b1-9a76-4ab7-9a7a-bc95ceac8446",
+                "resourcePath": "sprites\\spr_phone_ring\\spr_phone_ring.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "80b00bd6-5489-46f4-89a2-5eb3beef2591",
+            "Value": {
+                "id": "c55aab75-b130-4dec-88f0-ae2a3df3639d",
+                "resourcePath": "sprites\\spr_phone\\spr_phone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "80feecf5-7eb2-49a1-a41d-01b49824a0c9",
             "Value": {
                 "id": "6cbaa829-c4ed-4971-887e-e3fabfc0e5ee",
