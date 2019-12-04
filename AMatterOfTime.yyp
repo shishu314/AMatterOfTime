@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04a7b143-1ff6-4ff0-8e5f-a537b6726e0a",
+            "Value": {
+                "id": "5cfffedf-cba1-44ba-80bb-aad5a8e2948c",
+                "resourcePath": "objects\\obj_clothingStorePlatSpawner\\obj_clothingStorePlatSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0801fff3-a952-478c-8a85-0deabf90ed0a",
             "Value": {
                 "id": "d16fbfc0-73eb-44ca-bbd9-75cde1b59ed5",
@@ -71,6 +79,14 @@
             }
         },
         {
+            "Key": "1b8bb9f7-e4ae-4729-bb85-0ed40b8f020d",
+            "Value": {
+                "id": "d948b6c7-7e26-41b9-8d87-afcd4d5da8d1",
+                "resourcePath": "views\\1b8bb9f7-e4ae-4729-bb85-0ed40b8f020d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "233fd0a4-23bd-49b7-bda6-b909cc325a76",
             "Value": {
                 "id": "8124fd03-1956-4781-9d65-9af6f3e11b9a",
@@ -100,6 +116,14 @@
                 "id": "3ee54af5-c999-4e52-99e5-a1b7158003cd",
                 "resourcePath": "objects\\obj_redTeleporter\\obj_redTeleporter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a1224d2-53ef-47b8-a659-9598fb511d95",
+            "Value": {
+                "id": "a5c77f17-815e-4223-8eae-1e76d16a84f2",
+                "resourcePath": "scripts\\CreateMovingPlatform\\CreateMovingPlatform.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -535,6 +559,14 @@
             }
         },
         {
+            "Key": "b9bed1bc-bffe-432e-886c-5c0992711e0e",
+            "Value": {
+                "id": "1f79d8d8-97ec-4f23-98c0-e4a2580e3064",
+                "resourcePath": "objects\\obj_movingPlatform\\obj_movingPlatform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb0cce3a-c57b-4cd4-9446-930b5625b17a",
             "Value": {
                 "id": "e7acd98f-9b3e-47db-b587-53fdf09e9ce3",
@@ -806,7 +838,8 @@
         "c89ff6d3-8234-4790-81d0-a374881c8696",
         "1a08603b-1337-47f3-bace-f5fb3cb73a31",
         "df787408-e1b2-4db7-a3c7-d74351da7f41",
-        "a24794f1-4640-42f2-81cf-8c08ec0799f0"
+        "a24794f1-4640-42f2-81cf-8c08ec0799f0",
+        "2a1224d2-53ef-47b8-a659-9598fb511d95"
     ],
     "tutorial": ""
 }

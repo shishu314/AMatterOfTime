@@ -11,6 +11,9 @@ if(jumpAmt<=0){
 		}
 	}
 	if(hitPlat != noone) {
+		if(hitPlat.mspd != undefined && hitPlat.currentXDirection != undefined) {
+			x += hitPlat.mspd * hitPlat.currentXDirection;
+		}
 		y = hitPlat.y - hitPlat.sprite_height/2 - sprite_height/2;
 		grounded = true;
 		sprite_index = spr_player_idle;
