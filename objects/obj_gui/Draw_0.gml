@@ -25,7 +25,7 @@ if(room != GameOver && room != TitleScreen) {
 	var timeText = string(date_get_month(currentTime)) + "/" + string(date_get_day(currentTime)) + "/" + string(date_get_year(currentTime)) + " " + string(date_get_hour(currentTime)) + ":" + string(date_get_minute(currentTime)) + ":" + string(date_get_second(currentTime));
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_middle);
-	draw_text_transformed(cam_x+cam_width/8, cam_y+cam_height/8, timeText, 1.5, 1.5, 0);
+	draw_text_transformed(cam_x+cam_width/8, cam_y+cam_height/8, timeText, 1, 1, 0);
 	#endregion
 
 	#region Dialog Box
@@ -35,7 +35,7 @@ if(room != GameOver && room != TitleScreen) {
 		draw_set_color(c_black);
 		draw_rectangle(cam_x, cam_height, cam_x + cam_width, 7*cam_height/8, false);
 		draw_set_color(c_white);
-		draw_text_transformed(cam_x+cam_width/10, 29*(cam_y+cam_height)/32,ds_list_find_value(global.sentenceArray, global.dialogBoxIndex),1.5,1.5, 0);
+		draw_text_transformed(cam_x+cam_width/10, 29*(cam_y+cam_height)/32,ds_list_find_value(global.sentenceArray, global.dialogBoxIndex),1,1, 0);
 		// Flash every 0.25 seconds
 		if((current_time/500) & 1) {
 			draw_text_transformed(cam_x+cam_width/2, 31*(cam_y+cam_height)/32, "Press Space to Continue", 1, 1, 0);
