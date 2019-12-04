@@ -4,3 +4,5 @@ global.sentenceArray = undefined;
 global.maxSentenceLength = 65;
 global.maxEndGameSentenceLength = 40;
 global.dialogBoxIndex = 0;
+
+draw_set_font(pixel_font);
