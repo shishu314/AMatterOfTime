@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-mspd = undefined;
-currentXDirection = undefined;
+if(shouldCollide) {
+	draw_self();
+}

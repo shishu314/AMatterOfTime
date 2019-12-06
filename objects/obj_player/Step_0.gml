@@ -3,14 +3,7 @@
 #region Ground Check
 if(jumpAmt<=0){
 	hitPlat = instance_position(x, y+sprite_height/2, obj_platform);
-	if(hitPlat == noone) {
-		if(global.isPresent) {
-			hitPlat = instance_position(x, y+sprite_height/2, obj_presentPlatform);
-		} else {
-			hitPlat = instance_position(x, y+sprite_height/2, obj_pastPlatform);
-		}
-	}
-	if(hitPlat != noone) {
+	if(hitPlat != noone && hitPlat.shouldCollide) {
 		if(hitPlat.mspd != undefined && hitPlat.currentXDirection != undefined) {
 			x += hitPlat.mspd * hitPlat.currentXDirection;
 		}
