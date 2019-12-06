@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "6c6f9382-6cb2-45f3-ba12-f9f1d7407622",
+            "Value": {
+                "id": "f2beb30c-1482-4283-827c-9ce321084143",
+                "resourcePath": "objects\\obj_disappearingPlatform\\obj_disappearingPlatform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6d612820-8b62-47fc-983c-5f2ab8f10942",
             "Value": {
                 "id": "2d8d0f66-9d58-4a7e-9c48-1e3df2d41764",
