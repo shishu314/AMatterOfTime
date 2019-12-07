@@ -9,5 +9,6 @@ global.prevY = undefined;
 global.hasJacket = false;
 global.hasApple = false;
 #endregion
+global.isPart2 = false;
 window_set_size(1200,900);
 instance_create_depth(x, y, -1000, obj_gui);

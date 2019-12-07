@@ -2,7 +2,7 @@
     "id": "4db8c2ee-2f7a-4b41-9366-f27c38771bda",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_nextLevel",
+    "name": "obj_part2",
     "eventList": [
         {
             "id": "08318e66-1c26-4104-a0ff-fe92edc92d1b",
@@ -44,5 +44,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "a9dcac4c-e372-4b65-90fb-7afdfd657ecf",
-    "visible": true
+    "visible": false
 }
