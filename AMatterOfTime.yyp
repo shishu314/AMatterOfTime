@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2f64a1e5-c345-4b42-af3d-8eae5526aaf0",
+            "Value": {
+                "id": "433501e7-7ec0-4ee3-a324-b6f17c38e2a6",
+                "resourcePath": "objects\\obj_phone\\obj_phone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f6ce8f1-a1de-402e-b1b8-7542822bbc08",
             "Value": {
                 "id": "a57d6380-15fc-4b95-934d-76e5fdab0cb5",

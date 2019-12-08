@@ -12,7 +12,8 @@ if(obj_player.x >= x) {
 			global.isPart2 = true;
 			global.prevX = x;
 			global.prevY = y;
-			InitializeDialogBox("Dropped my phone yada yada");
+			InitializeDialogBox("Ring...# Dropped my phone yada yada");
+			instance_create_depth(x, y, 0, obj_phone);
 		}
 	}
 }
