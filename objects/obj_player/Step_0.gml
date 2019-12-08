@@ -98,10 +98,6 @@ if(global.sentenceArray != undefined) {
 		if(global.dialogBoxIndex == ds_list_size(global.sentenceArray) - 1) {
 			ds_list_destroy(global.sentenceArray);
 			global.sentenceArray = undefined;
-			var phone = instance_find(obj_phone, 0);
-			if(phone != noone) {
-				instance_destroy(phone);
-			}
 		} else {
 			global.dialogBoxIndex += 1;
 		}
