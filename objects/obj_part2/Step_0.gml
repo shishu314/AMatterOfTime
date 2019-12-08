@@ -8,6 +8,7 @@ if(obj_player.x >= x) {
 		obj_player.x = x - sprite_width;
 	} else {
 		if(!global.isPart2){
+			global.isPresent = true;
 			global.isPart2 = true;
 			global.prevX = x;
 			global.prevY = y;
