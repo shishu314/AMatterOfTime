@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "f3ddd5d2-f328-47f8-bbd9-cc2e6a00e78c",
+            "Value": {
+                "id": "4ed1aa0d-f567-43fb-8220-ea97345f265c",
+                "resourcePath": "objects\\obj_finalStageDiagonalPlatSpawner\\obj_finalStageDiagonalPlatSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "8f1747a1-1f15-4e43-a1c5-2cedc91147ba",
