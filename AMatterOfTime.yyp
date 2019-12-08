@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "6e66fd8f-3afb-4c15-a482-d2dc95bc4b82",
+            "Value": {
+                "id": "7be1887b-70f5-444e-9f60-a929172d7514",
+                "resourcePath": "objects\\obj_finalStageDoor\\obj_finalStageDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "71f67307-ac14-4c55-86ca-8bb42fd58a5e",
             "Value": {
                 "id": "dcf652d8-d3f3-44a6-a030-751926344079",
@@ -919,19 +927,19 @@
             }
         },
         {
-            "Key": "f72abf03-87e9-490e-86a6-27c311f8587c",
-            "Value": {
-                "id": "2e79c490-1e7f-456e-bc16-703671fce173",
-                "resourcePath": "rooms\\Level2\\Level2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "fd68b283-7344-43c0-9580-d48115d6b251",
             "Value": {
                 "id": "5927ac64-e0c6-4242-abd5-8747533631b3",
                 "resourcePath": "views\\fd68b283-7344-43c0-9580-d48115d6b251.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd74b375-f12f-4831-8b2e-b03a3b8e253d",
+            "Value": {
+                "id": "5fbc1bf5-0d9d-4833-8ba7-90a791a56364",
+                "resourcePath": "rooms\\FinalStage\\FinalStage.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
