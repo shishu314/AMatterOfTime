@@ -4,10 +4,15 @@
 if(jumpAmt<=0){
 	hitPlat = instance_position(x, y+sprite_height/2, obj_platform);
 	if(hitPlat != noone && hitPlat.shouldCollide) {
-		if(hitPlat.mspd != undefined && hitPlat.currentXDirection != undefined) {
-			x += hitPlat.mspd * hitPlat.currentXDirection;
-		}
 		y = hitPlat.y - hitPlat.sprite_height/2 - sprite_height/2;
+		if(hitPlat.mspd != undefined) {
+			if(hitPlat.currentXDirection != undefined) {
+				x += hitPlat.mspd * hitPlat.currentXDirection;
+			}
+			if(hitPlat.currentYDirection != undefined) {
+				y += hitPlat.mspd * hitPlat.currentYDirection;
+			}
+		}
 		grounded = true;
 		sprite_index = spr_player_idle;
 	} else {
