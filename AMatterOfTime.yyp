@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "190cd3e6-8f13-4ab9-a2cb-bd21c126dbd0",
+            "Value": {
+                "id": "a1f9c4ec-1226-45ce-a7df-c7c4a7da8f3c",
+                "resourcePath": "objects\\obj_waterDialogue\\obj_waterDialogue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a08603b-1337-47f3-bace-f5fb3cb73a31",
             "Value": {
                 "id": "ee71bd88-606f-4129-94d2-49adafde4c79",
