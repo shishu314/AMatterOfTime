@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2901e431-e4b4-4cc1-a0ae-0b002373e9dc",
+            "Value": {
+                "id": "32aa1605-28b6-4efd-82fe-ba3e6749dd02",
+                "resourcePath": "sounds\\sfx_clothingStore\\sfx_clothingStore.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2a1224d2-53ef-47b8-a659-9598fb511d95",
             "Value": {
                 "id": "a5c77f17-815e-4223-8eae-1e76d16a84f2",
@@ -188,6 +196,14 @@
                 "id": "3a6cf8a8-c13e-468b-be10-c0b3d2366e64",
                 "resourcePath": "objects\/obj_door\/obj_door.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "377ad92d-b8ea-4043-aa96-abffb66e461d",
+            "Value": {
+                "id": "1d975dad-ede4-49e5-8741-1d7dbceeab01",
+                "resourcePath": "sounds\\sfx_finalStage\\sfx_finalStage.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -996,6 +1012,14 @@
                 "id": "8f1747a1-1f15-4e43-a1c5-2cedc91147ba",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f580c5ef-71ec-403b-b572-d3b57341c8d7",
+            "Value": {
+                "id": "cb6aef69-c2b2-43be-a27e-6484a88a3b45",
+                "resourcePath": "objects\\obj_FinalStageState\\obj_FinalStageState.yy",
+                "resourceType": "GMObject"
             }
         },
         {
