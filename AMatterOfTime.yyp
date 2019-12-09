@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "7c9ff9a3-74c8-4e69-a9ec-5c2a09d9223b",
+            "Value": {
+                "id": "a69aa818-f40f-4537-9801-70af3de1f20a",
+                "resourcePath": "objects\\obj_finalStageHorizontalPlatSpawner3\\obj_finalStageHorizontalPlatSpawner3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e5158ae-541c-4766-9e3f-d6f3424fbb8a",
             "Value": {
                 "id": "73a74f9e-e399-4757-9e5c-48ddbd077378",
@@ -699,6 +707,14 @@
             "Value": {
                 "id": "73b068e2-9edf-40ef-ada2-1e645604d80f",
                 "resourcePath": "objects\\obj_background\\obj_background.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b6bb53ab-1135-4b84-a8d8-e410e183190a",
+            "Value": {
+                "id": "837a765b-4849-4e96-984b-9b1103dbfc7c",
+                "resourcePath": "objects\\obj_finalStageHorizontalPlatSpawner2\\obj_finalStageHorizontalPlatSpawner2.yy",
                 "resourceType": "GMObject"
             }
         },
