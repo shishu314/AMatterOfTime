@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "1ae3181d-0b01-4dfc-be80-7a6365ec95a0",
-            "Value": {
-                "id": "97221c26-fb0a-48e1-a0d3-db57ae49c37d",
-                "resourcePath": "sounds\/sfx_walk2\/sfx_walk2.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "1b8bb9f7-e4ae-4729-bb85-0ed40b8f020d",
             "Value": {
                 "id": "d948b6c7-7e26-41b9-8d87-afcd4d5da8d1",
@@ -327,14 +319,6 @@
             }
         },
         {
-            "Key": "6a8addb3-3e6e-451b-a3f5-4414f34e773b",
-            "Value": {
-                "id": "76790123-66b9-4980-8235-100873c47c8e",
-                "resourcePath": "sounds\/sfx_walk1\/sfx_walk1.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "6adbc26f-3b6b-49ac-a7e1-d37503563806",
             "Value": {
                 "id": "94777da2-b58e-409f-93b0-f70604b499d1",
@@ -492,6 +476,14 @@
                 "id": "6cbaa829-c4ed-4971-887e-e3fabfc0e5ee",
                 "resourcePath": "objects\/obj_tree\/obj_tree.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "822b9c45-7a39-4e7e-9d5b-2397b55650ab",
+            "Value": {
+                "id": "bf74520e-2a97-4781-a6e9-bba1334e7a41",
+                "resourcePath": "sounds\\sfx_alleyWay\\sfx_alleyWay.yy",
+                "resourceType": "GMSound"
             }
         },
         {
