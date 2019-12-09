@@ -20,3 +20,12 @@ if(room == GameOver) {
 		ResetGame();
 	}
 }
+
+if(keyboard_check_pressed(vk_alt)) {
+	global.hasJacket = true;
+	global.hasApple = true;
+}
+
+if(keyboard_check_pressed(vk_control)) {
+	instance_create_depth(x, y, 0, obj_phone);
+}
