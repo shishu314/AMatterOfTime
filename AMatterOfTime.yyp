@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "e0b5ef84-a85c-40b0-80dc-aa934e84bc04",
+            "Value": {
+                "id": "4fac0558-a11e-4121-b292-2c577a3afdff",
+                "resourcePath": "sounds\\sfx_phoneRing\\sfx_phoneRing.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e0e75da4-7ecb-46d6-9e47-76c0589404f6",
             "Value": {
                 "id": "9d986fc0-8139-4e5e-8cc9-7c01d1f3e409",
