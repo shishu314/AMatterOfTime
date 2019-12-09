@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "a6307711-8040-4249-b41e-9c403082f83f",
+            "Value": {
+                "id": "1b3b484a-cb3d-4a09-b715-896079a8958b",
+                "resourcePath": "sounds\\sfx_room\\sfx_room.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a6aa6d0b-fa35-454f-9881-d4ee555675ac",
             "Value": {
                 "id": "b273eb97-e9da-4d4e-9327-2ede48de6f16",

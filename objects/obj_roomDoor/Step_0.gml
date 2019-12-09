@@ -5,6 +5,7 @@ if(instance_place(x, y, obj_player) != noone) {
 	if(obj_RoomState.diaryRead) {
 		if(keyboard_check_pressed(ord("E"))) {
 			global.currentLevel = Level1;
+			audio_stop_sound(sfx_room);
 			room_goto_next();
 		}
 	}

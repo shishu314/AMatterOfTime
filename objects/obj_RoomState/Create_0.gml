@@ -5,3 +5,4 @@ global.currentLevel = Room;
 diaryRead = false;
 InitializeDialogBox("...# ..# .# Yawn*# It's too early... but I guess that what I get for accepting this job.# ... I still have a few more minutes.# (30 minutes of twitter later)# God damn it. I don't want to get up.");
 instance_create_depth(x,y, 0, obj_phone);
+audio_play_sound(sfx_room, 1, true);
