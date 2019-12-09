@@ -7,6 +7,8 @@ if(global.hasApple && global.hasJacket && !useAlternate) {
 				global.prevX = x;
 				global.prevY = y;
 				InitializeEndGameText("You helped the hobo, but now you didn't change the past.");
+				audio_stop_all();
+				audio_play_sound(sfx_gameOver, 1, false);
 				room_goto(GameOver);
 			} else {
 				InitializeDialogBox("Is that jacket and food for me?# ...# Thank you stranger... Thank you so much!# T^T");

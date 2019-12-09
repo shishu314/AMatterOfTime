@@ -110,6 +110,8 @@ if(y > room_height) {
 	if(room == ClothingStore){
 		global.hasJacket = false;
 	}
+	audio_stop_all();
+	audio_play_sound(sfx_gameOver, 1, false);
 	InitializeEndGameText("You fell out of the world and died");
 	room_goto(GameOver);
 }
