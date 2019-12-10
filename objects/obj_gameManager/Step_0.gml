@@ -20,3 +20,13 @@ if(room == GameOver) {
 		ResetGame();
 	}
 }
+
+#region Layer Visibility
+if(!global.isPresent){
+	layer_set_visible("Future_tiles", false);
+	layer_set_visible("Future_tiles2", false);
+} else {
+	layer_set_visible("Future_tiles", true);
+	layer_set_visible("Future_tiles2", true);
+}
+#endregion
