@@ -22,11 +22,15 @@ if(room == GameOver) {
 }
 
 #region Layer Visibility
-if(!global.isPresent){
-	layer_set_visible("Future_tiles", false);
-	layer_set_visible("Future_tiles2", false);
+if(global.isPresent){
+	layer_set_visible("Past_tiles", false);
+	layer_set_visible("Past_tiles2", false);
+	layer_set_visible("Sepia", false);
+	layer_set_visible("Static", false);
 } else {
-	layer_set_visible("Future_tiles", true);
-	layer_set_visible("Future_tiles2", true);
+	layer_set_visible("Past_tiles", true);
+	layer_set_visible("Past_tiles2", true);
+	layer_set_visible("Sepia", true);
+	layer_set_visible("Static", true);
 }
 #endregion
