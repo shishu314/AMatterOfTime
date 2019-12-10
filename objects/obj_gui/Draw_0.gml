@@ -5,7 +5,7 @@ var cam_y = camera_get_view_y(view_camera[0]);
 var cam_width = camera_get_view_width(view_camera[0]);
 var cam_height = camera_get_view_height(view_camera[0]);
 
-if(room != GameOver && room != TitleScreen) {
+if(room != GameOver && room != TitleScreen && room != ToBeContinued) {
 	#region Time
 	draw_set_color(c_white);
 	var currentTime = global.time;
@@ -58,5 +58,10 @@ if(room != GameOver && room != TitleScreen) {
 		draw_set_color(c_white);
 		draw_text_transformed(room_width/2, room_height/2, "A Matter of Time", 2.0, 2.0, 0);
 		draw_text_transformed(room_width/2, 3*room_height/4, "Press Space To Start", 2.0, 2.0, 0);
+	}
+	if(room == ToBeContinued) {
+		draw_set_halign(fa_middle);
+		draw_set_color(c_white);
+		draw_text_transformed(room_width/2, room_height/2, "To Be Continued...", 2.0, 2.0, 0);
 	}
 }
