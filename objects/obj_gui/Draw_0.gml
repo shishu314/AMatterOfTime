@@ -58,12 +58,13 @@ if(room != GameOver && room != TitleScreen && room != ToBeContinued) {
 		draw_text_transformed(room_width/2, 6 * yInterval, "GAME OVER!", 2.0, 2.0, 0);
 		draw_text_transformed(room_width/2, 7 * yInterval, "Press R to Retry", 2.0, 2.0, 0);
 	}
+	/*
 	if(room == TitleScreen) {
 		draw_set_halign(fa_middle);
 		draw_set_color(c_white);
-		draw_text_transformed(room_width/2, room_height/2, "A Matter of Time", 2.0, 2.0, 0);
+		//draw_text_transformed(room_width/2, room_height/2, "A Matter of Time", 2.0, 2.0, 0);
 		draw_text_transformed(room_width/2, 3*room_height/4, "Press Space To Start", 2.0, 2.0, 0);
-	}
+	}*/
 	if(room == ToBeContinued) {
 		draw_set_halign(fa_middle);
 		draw_set_color(c_white);
