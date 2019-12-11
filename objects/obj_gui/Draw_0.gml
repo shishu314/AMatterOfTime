@@ -4,8 +4,13 @@ var cam_x = camera_get_view_x(view_camera[0]);
 var cam_y = camera_get_view_y(view_camera[0]);
 var cam_width = camera_get_view_width(view_camera[0]);
 var cam_height = camera_get_view_height(view_camera[0]);
+var offset = 50;
 
 if(room != GameOver && room != TitleScreen && room != ToBeContinued) {
+	#region Draw Clock
+	draw_sprite(spr_clock, 0, cam_x+offset, cam_y+offset);
+	#endregion
+	
 	#region Time
 	draw_set_color(c_white);
 	var currentTime = global.time;
@@ -25,7 +30,7 @@ if(room != GameOver && room != TitleScreen && room != ToBeContinued) {
 	var timeText = string(date_get_month(currentTime)) + "/" + string(date_get_day(currentTime)) + "/" + string(date_get_year(currentTime)) + " " + string(date_get_hour(currentTime)) + ":" + string(date_get_minute(currentTime)) + ":" + string(date_get_second(currentTime));
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_middle);
-	draw_text_transformed(cam_x+cam_width/8, cam_y+cam_height/8, timeText, 1, 1, 0);
+	draw_text_transformed(cam_x+offset*2, cam_y+offset, timeText, 1, 1, 0);
 	#endregion
 
 	#region Dialog Box

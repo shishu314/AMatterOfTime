@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "bccc574d-f035-438d-938c-ff71b612dac0",
+            "Value": {
+                "id": "1d202023-28c6-4d66-aad1-837f7933a6c1",
+                "resourcePath": "sprites\\spr_clock\\spr_clock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd530822-dde4-483f-a5fd-ad4f5e8d8b6f",
             "Value": {
                 "id": "71c2a1c9-9670-44f6-a47f-8386e53fd0e4",
