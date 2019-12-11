@@ -11,3 +11,5 @@ if(global.prevX == undefined && global.prevY == undefined){
 	global.prevY = undefined;
 	obj_hobo.introduced = true;
 }
+audio_stop_all();
+audio_play_sound(sfx_level1, 1, true);

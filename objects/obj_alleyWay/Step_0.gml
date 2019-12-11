@@ -9,7 +9,6 @@ if(instance_place(x, y, obj_player) != noone) {
 				room_goto(AlleyWay);
 			}
 		} else {
-			audio_stop_sound(sfx_alleyWay);
 			room_goto(Level1);
 		}
 	}
