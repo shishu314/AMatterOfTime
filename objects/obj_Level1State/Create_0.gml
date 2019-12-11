@@ -3,7 +3,7 @@
 global.isPresent = true;
 global.currentLevel = Level1;
 if(global.prevX == undefined && global.prevY == undefined){
-	InitializeDialogBox("Man...# I could be looking at dank memes...# But here I am...")
+	InitializeDialogBox("Man...# I could be looking at more dank memes...# But here I am...")
 } else {
 	obj_player.x = global.prevX;
 	obj_player.y = global.prevY;

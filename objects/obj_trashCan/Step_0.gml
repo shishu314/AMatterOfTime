@@ -6,7 +6,7 @@ if(!global.isPresent){
 		if(keyboard_check_pressed(ord("E")) && global.sentenceArray == undefined) {
 			if(!global.hasApple){
 				global.hasApple = true;
-				InitializeDialogBox("Though disgusted, you dug through the trash can. You managed to find a somewhat okay apple.# It's a bit dirty but I'm sure it's still safe to eat.");	
+				InitializeDialogBox("Though disgusted, you dug through the trash can. You managed to find a somewhat okay apple.# It's a bit dirty but it's probably still safe to eat.");	
 			} else {
 				InitializeDialogBox("Why would you go through the trashcan again? YUCK!");
 			}
